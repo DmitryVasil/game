@@ -1,0 +1,46 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input {
+  width: 25%;
+}
+
+.card {
+  width: 200px;
+  padding: 0;
+  height: 200px;
+  background-color: aqua;
+  border-radius: 100%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s linear;
+  color: transparent;
+}
+
+.card.active {
+  color: black;
+  background-color: green;
+}
+
+.card.true {
+  background-color: rgb(19, 235, 19);
+}
+
+@media (max-width:720px) {
+  .card {
+    width: 100px;
+    height: 100px;
+  }
+}
