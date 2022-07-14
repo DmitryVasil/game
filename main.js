@@ -45,7 +45,7 @@
 
   // Начать заново
   function reload () {
-    const result = confirm("Начать заново?");
+    const result = confirm("Победа! Начать заново?");
     if (result) {
       document.querySelector('.box').remove()
       finishArr = []
